@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 3 - Mostrar y ocultar imagen</title>
+  <script>
+    function mostrarOcultar() {
+      let imagen = document.querySelector("#miImagen");
+      if (imagen.style.display === "none") {
+        imagen.style.display = "block";
+      } else {
+        imagen.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Ejercicio 3: Mostrar y ocultar una imagen</h2>
+  <button onclick="mostrarOcultar()">Mostrar / Ocultar imagen</button><br>
+  <img src="../imagen/gato pro.jpg" alt="gato pro" id="miImagen">
+
+  <P><a href="../index.html" display:inline-block;
+    margin-top:20px;
+    padding:10px 15px;
+    background-color:#00bcd4;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;>🧩 Menú</a></P>
+</body>
+</html>
