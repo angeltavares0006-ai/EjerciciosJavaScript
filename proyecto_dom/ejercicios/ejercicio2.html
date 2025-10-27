@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 2 - Cambiar color</title>
+  <script>
+    function cambiarColor() {
+      let notas = document.getElementsByClassName("nota");
+      for (let i = 0; i < notas.length; i++) {
+        notas[i].style.color = "blue";
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Ejercicio 2: Cambiar color de varios elementos</h2>
+  <p class="nota">Este es el primer párrafo.</p>
+  <p class="nota">Este es el segundo párrafo.</p>
+  <p class="nota">Este es el tercer párrafo.</p>
+  <button onclick="cambiarColor()">Cambiar color</button>
+
+  <P><a href="../index.html" display:inline-block;
+    margin-top:20px;
+    padding:10px 15px;
+    background-color:#00bcd4;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;>🧩 Menú</a></P>
+
+</body>
+</html>
